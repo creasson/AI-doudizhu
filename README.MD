@@ -2,6 +2,9 @@
 牌的分拆和可选出牌的计算采用onestraw编写的引擎：https://github.com/onestraw/doudizhu
 平台对54张牌的编号与这套引擎不一样：0到12表示黑桃3-4-5-6-7-8-9-10-J-Q-K-A-2, 然后是红桃,方块和梅花, 52是BJ, 53是CJ。
 
+运行： `python -u manage.py runserver 0.0.0.0:端口号`
+访问:  http://127.0.0.1:端口号/example
+
 ##### 输入
     当前玩家所掌握的信息, json数据，示例：
     {
