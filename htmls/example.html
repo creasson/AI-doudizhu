@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p><font size="2" color="red">出牌</font></p>
+    <form action="/out_card_predict" method="post">
+        <textarea name="q" rows="20" cols="100">
+        {
+            "地主id": 0,
+            "底牌": [19, 44, 35],
+            "桌面上的牌": [47, 34, 8, 44, 31],
+            "玩家id": 2,
+            "玩家当前牌": [38, 37, 36, 23, 10, 48, 22, 21, 46, 20, 7, 45, 5, 42, 29, 39, 26],
+            "历次出牌": [
+                [0, [47, 34, 8, 44, 31], 15],
+                [1, [], 17]
+            ]
+        }
+        </textarea>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
